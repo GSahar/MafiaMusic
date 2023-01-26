@@ -1,0 +1,270 @@
+/*Применение шрифта для всей страницы*/
+body {
+  font-family: Montserrat, sans-serif;
+}
+.header {
+  /* min-height: 100vw; */
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  height: 911px;
+  background-repeat: no-repeat;
+  background-image: url("../img/happy-diverse-people-using-digital-devices\ 1.png");
+}
+
+.header-menu {
+  margin: 0 240px 0 240px;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content {
+  padding-left: 240px;
+  padding-top: 101px;
+  width: 100%;
+}
+
+.text-head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  width: 588px;
+}
+
+.text-subhead {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  width: 588px;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+}
+.menu div:nth-child(2) {
+  margin-left: 40px;
+}
+
+.menu-item {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.button {
+  font-family: "Inter";
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: #017aff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  width: 131px;
+  line-height: 20px;
+}
+
+/*Content*/
+.container {
+  width: 100%;
+  margin-top: 100px;
+
+  justify-content: center;
+  position: relative;
+}
+
+.container-head {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-info {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.container-head .text-info {
+  width: 806px;
+  position: relative;
+}
+
+.container-head .text-info::before {
+  content: url("../img/open.svg");
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+.container-head .text-info::after {
+  content: url("../img/close.svg");
+  position: absolute;
+  width: 30px;
+  bottom: 10px;
+}
+
+.conteiner-line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 24px;
+}
+.line {
+  width: 490px;
+  border-bottom: 2px solid #017aff;
+}
+
+.container-body {
+  width: 100%;
+  margin-top: 86px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mobile-app {
+  width: 500px;
+  position: relative;
+  margin-right: 200px;
+  height: 700px;
+}
+.mobile1 {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.mobile2 {
+  position: absolute;
+  top: 140px;
+  left: 280px;
+}
+
+.characteristics-app {
+  width: 500px;
+  height: 500px;
+  display: inline;
+  /*  padding: 50px; */
+}
+
+.characteristics-item {
+  /*  width: 150px;
+  height: 150px;
+  margin: 50px; */
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  text-align: center;
+}
+
+.item-text {
+  margin-top: 26px;
+}
+.container-footer {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-footer .text-info {
+  width: 954px;
+  position: relative;
+}
+
+.container-footer .text-info::before {
+  content: url("../img/open.svg");
+  position: absolute;
+  left: -15px;
+  top: -10px;
+}
+
+.container-footer .text-info::after {
+  content: url("../img/close.svg");
+  position: absolute;
+  width: 30px;
+  bottom: 10px;
+}
+
+.footer {
+  margin-top: 103px;
+  height: 960px;
+  background: #017aff14;
+  text-align: center;
+  padding-bottom: 76px;
+}
+
+.footer-head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  padding: 37px 0 40px 0;
+}
+
+.rules-items {
+  /* margin-left: 30px; */
+  position: relative;
+}
+
+.rules-items article:nth-child(2n) {
+  margin-top: 40px;
+}
+.rules-items article:nth-child(2n + 1) {
+  margin-top: 40px;
+}
+.rules-items article:nth-child(1) {
+  margin-top: 0;
+}
+
+.rules-item {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* justify-content: center; */
+}
+
+.rules-item .item-img {
+  position: relative;
+  left: 49%;
+}
+
+.rules-item .item-text {
+  position: relative;
+  left: 50%;
+  width: 687px;
+  text-align: left;
+  margin-left: 36px; 
+  
+}
+.rules-items article:nth-child(2n+1)>.item-text {
+  position: relative;
+  left: 2%;
+  text-align:right;
+}
+
+/* .rules-item::before {
+  content: "1";
+  width: 1px;
+  height: 40px;
+  border-bottom: 2px solid #017aff;
+} */
