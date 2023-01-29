@@ -1,0 +1,400 @@
+@media (min-width: 361px), (max-width: 767px) {
+  /*Применение шрифта для всей страницы*/
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+  .header {
+    /* min-height: 100vw; */
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+  }
+
+  .banner {
+    position: relative;
+    margin-top: 80px;
+    /*  height: 100vh; */
+    height: 653px;
+    background-repeat: no-repeat;
+    background-image: url("../img/happy-diverse-people-using-digital-devices\ 2.png");
+    /*  background-size: auto; */
+    /* background-position: left right; */
+    background-size: cover;
+  }
+
+  .header-menu {
+    margin: 0 20px 0 20px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-content {
+    padding-left: 20px;
+    padding-top: 61px;
+    width: 100%;
+  }
+
+  .text-head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    width: 320px;
+  }
+
+  .text-subhead {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    width: 320px;
+  }
+
+  .menu {
+    display: none;
+    /*  display: flex;
+  text-align: center; */
+  }
+  .menu div:nth-child(2) {
+    margin-left: 40px;
+  }
+
+  .menu-item {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .header-menu > .button {
+    font-family: "Inter";
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #017aff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    width: 131px;
+    line-height: 20px;
+    text-decoration: none;
+    display: none;
+  }
+
+  .button {
+    font-family: "Inter";
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #017aff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    width: 131px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .button2 {
+    font-family: "Inter";
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #017aff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100px;
+    line-height: 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /*Content*/
+  .container {
+    width: 100%;
+    margin-top: 50px;
+
+    justify-content: center;
+    position: relative;
+  }
+
+  .container-head {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .text-info {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .container-head .text-info {
+    width: 319px;
+    position: relative;
+  }
+
+  .container-head .text-info::before {
+    content: url("../img/open1.svg");
+    height: 16px;
+    background-size: 16px 16px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+  }
+
+  .container-head .text-info::after {
+    content: url("../img/close1.svg");
+    height: 16px;
+    background-size: 16px 16px;
+    position: absolute;
+    width: 30px;
+    bottom: 10px;
+  }
+
+  .conteiner-line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .line {
+    width: 286px;
+    border-bottom: 2px solid #017aff;
+  }
+
+  .container-body {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mobile-app {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin-right: 200px;
+    padding-left: 22px;
+    margin-top: 30px;
+  }
+  .mobile1 {
+    position: absolute;
+    top: 30px;
+    left: 42px;
+
+    width: 184px;
+    height: auto;
+  }
+  .mobile2 {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+
+    width: 184px;
+    height: auto;
+  }
+
+  .characteristics-app {
+    width: 400px;
+    height: 350px;
+    display: inline;
+    /*  padding: 50px; */
+    padding-left: 70px;
+    margin-top: 60px;
+  }
+
+  .characteristics-item {
+    float: left;
+    width: 120px;
+    height: 150px;
+    text-align: center;
+  }
+
+  .characteristics-item > .item-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .item-text {
+    margin-top: 12px;
+  }
+
+  .container-rules {
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container-rules .text-info {
+    width: 319px;
+    position: relative;
+  }
+
+  .container-rules .text-info::before {
+    content: url("../img/open1.svg");
+    position: absolute;
+    left: -15px;
+    top: -10px;
+  }
+
+  .container-rules .text-info::after {
+    content: url("../img/close1.svg");
+    position: absolute;
+    width: 30px;
+    bottom: 5px;
+  }
+
+  /*rules*/
+
+  .rules {
+    margin-top: 60px;
+    /* height: 960px;*/
+    background: #017aff14;
+
+    padding-bottom: 76px;
+
+    width: inherit;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rules-head {
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+  }
+
+  .contain-img {
+    width: 340px;
+    display: block;
+  }
+
+  .contain-text {
+    width: 340px;
+    display: block;
+    align-items: center;
+    /**/
+    position: absolute;
+  }
+
+  .item-text-rules {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-top: 15px;
+  }
+
+  .rules-item:nth-child(2n + 1) > .rules-item-contain > .contain-img > .item-img {
+    margin-left: 22px;
+    float: left;
+  }
+
+  .rules-item:nth-child(2n + 1) > .rules-item-contain > .contain-text > .item-text-rules {
+    float: left;
+    padding-left: 90px;
+  }
+
+  .rules-item:nth-child(2n) > .rules-item-contain > .contain-img > .item-img {
+    float: right;
+    margin-right: -10px;
+
+    /**/
+    position: absolute;
+    left: 22px;
+  }
+
+  .rules-item:nth-child(2n) > .rules-item-contain > .contain-text > .item-text-rules {
+    float: left;
+    padding-left: 90px;
+  }
+
+  .item-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .rules-item-contain {
+    display: flex;
+  }
+  .rules-item {
+    display: block;
+    width: 340px;
+    height: 150px;
+
+    /**/
+    position: relative;
+  }
+
+  .rules-item:nth-child(2n) {
+    height: 120px;
+  }
+
+  .rules-item:nth-child(2n + 1) {
+    height: 100px;
+  }
+
+  .rules-item:nth-child(1) {
+    height: 80px;
+  }
+
+  .conteiner-line-rules {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 40px;
+    padding-left: 60px;
+    position: relative;
+    display: none;
+  }
+
+  .line-rules {
+    top: 40px;
+    position: absolute;
+    height: 960px;
+    border-left: 2px solid #017aff;
+    display: none;
+  }
+
+  .conteiner-line-rules1 {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    position: relative;
+  }
+
+  .line-rules1 {
+    top: 0;
+    position: absolute;
+    height: 740px;
+    border-left: 2px solid #017aff;
+  }
+}

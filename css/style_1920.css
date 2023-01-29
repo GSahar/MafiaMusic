@@ -1,0 +1,389 @@
+@media (min-width: 1219px) {
+  /*Применение шрифта для всей страницы*/
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+  .header {
+    /* min-height: 100vw; */
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+  }
+
+  .banner {
+    margin-top: 80px;
+    position: relative;
+    height: 911px;
+    background-repeat: no-repeat;
+    background-image: url("../img/happy-diverse-people-using-digital-devices\ 1.png");
+  }
+
+  .header-menu {
+    margin: 0 240px 0 240px;
+    height: 80px;
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-content {
+    padding-left: 240px;
+    padding-top: 101px;
+    width: 100%;
+  }
+
+  .text-head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    width: 588px;
+  }
+
+  .text-subhead {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 28px;
+    width: 588px;
+  }
+
+  .menu {
+    display: flex;
+    text-align: center;
+  }
+  .menu div:nth-child(2) {
+    margin-left: 40px;
+  }
+
+  .menu-item {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .header-menu>.button {
+    font-family: "Inter";
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #017aff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    width: 131px;
+    line-height: 20px;
+    text-decoration: none;
+    display: block;
+  }  
+
+  .button {
+    font-family: "Inter";
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #017aff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    width: 131px;
+    line-height: 20px;
+    display: block;
+  }
+
+  .button2 {
+    font-family: "Inter";
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #017aff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    width: 131px;
+    line-height: 20px;
+    text-decoration: none;
+    display: none;
+  }
+
+  /*Content*/
+  .container {
+    width: 100%;
+    margin-top: 100px;
+
+    justify-content: center;
+    position: relative;
+  }
+
+  .container-head {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .text-info {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .container-head .text-info {
+    width: 806px;
+    position: relative;
+  }
+
+  .container-head .text-info::before {
+    content: url("../img/open.svg");
+    position: absolute;
+    left: 5px;
+    top: -10px;
+  }
+
+  .container-head .text-info::after {
+    content: url("../img/close.svg");
+    position: absolute;
+    width: 30px;
+    bottom: 35px;
+  }
+
+  .conteiner-line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+  }
+  .line {
+    width: 490px;
+    border-bottom: 2px solid #017aff;
+  }
+
+  .container-body {
+    width: 100%;
+    margin-top: 86px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mobile-app {
+    width: 500px;
+    position: relative;
+    margin-right: 200px;
+    height: 700px;
+  }
+  .mobile1 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+
+    width: 243px;
+    height: 503px;
+  }
+  .mobile2 {
+    position: absolute;
+    top: 140px;
+    left: 280px;
+
+    width: 243px;
+    height: 503px;
+  }
+
+  .characteristics-app {
+    width: 500px;
+    height: 500px;
+    display: inline;
+    /*  padding: 50px; */
+  }
+
+  .characteristics-item {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+    text-align: center;
+  }
+
+  .characteristics-item>.item-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .item-text {
+    margin-top: 26px;
+  }
+  .container-rules {
+    margin-top: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container-rules .text-info {
+    width: 954px;
+    position: relative;
+  }
+
+  .container-rules .text-info::before {
+    content: url("../img/open.svg");
+    position: absolute;
+    left: -15px;
+    top: -10px;
+  }
+
+  .container-rules .text-info::after {
+    content: url("../img/close.svg");
+    position: absolute;
+    width: 30px;
+    bottom: 10px;
+  }
+
+  /*rules*/
+
+  .rules {
+    margin-top: 103px;
+    /* height: 960px;*/
+    background: #017aff14;
+
+    padding-bottom: 76px;
+
+    width: inherit;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rules-head {
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding: 37px 0 40px 0;
+    position: relative;
+  }
+
+  .contain-img {
+    width: 688px;
+    display: block;
+  }
+
+  .contain-text {
+    width: 688px;
+    display: block;
+    align-items: center;
+    /**/
+    position: unset;
+  }
+
+  .item-text-rules {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-top: 15px;
+  }
+
+  .rules-item:nth-child(n + 1):nth-child(2n + 1) > .rules-item-contain > .contain-img > .item-img {
+    margin-left: -30px;
+  }
+
+  .rules-item:nth-child(n + 1):nth-child(2n + 1)
+    > .rules-item-contain
+    > .contain-text
+    > .item-text-rules {
+    float: right;
+    padding-right: 65px;
+  }
+
+  .rules-item:nth-child(2n) > .rules-item-contain > .contain-img > .item-img {
+    float: right;
+    margin-right: -28px;
+
+    /**/
+    position: unset;
+    /*left: -30px; */
+  }
+
+  .rules-item:nth-child(2n) > .rules-item-contain > .contain-text > .item-text-rules {
+    float: left;
+    padding-left: 65px;
+  }
+
+  .item-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .rules-item-contain {
+    display: flex;
+  }
+  .rules-item {
+    display: block;
+    width: 100%;
+    height: 90px;
+
+    /**/
+    position: unset;
+  }
+
+  .rules-item:nth-child(2n) {
+    height: 90px;
+  }
+  
+  .rules-item:nth-child(2n+1) {
+    height: 90px;
+  }
+
+  .rules-item:nth-child(1) {
+    height: 56px;
+  }
+
+  .conteiner-line-rules {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding-left: 0;
+    position: unset;
+  }
+
+  .line-rules {
+    display: block;
+    position: unset;
+    height: 40px;
+    border-left: 2px solid #017aff;
+  }
+
+  .conteiner-line-rules1 {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 40px;
+    padding-left: 60px;
+    position: relative;
+    display: none;
+  }
+
+  .line-rules1 {
+    top: 40px;
+    position: absolute;
+    height: 920px;
+    border-left: 2px solid #017aff;
+    display: none;
+  }
+}
