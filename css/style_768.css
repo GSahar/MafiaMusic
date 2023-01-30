@@ -30,6 +30,10 @@
     text-decoration: none;
   }
 
+  .button:hover {
+    background: #ff2a5d;
+  }
+
   .button2 {
     font-family: "Inter";
     padding: 8px 16px;
@@ -42,6 +46,10 @@
     line-height: 20px;
     text-decoration: none;
     display: block;
+  }
+
+  .header-menu > .button:hover {
+    background: #ff2a5d;
   }
 
   .header {
@@ -68,7 +76,7 @@
     margin-top: 80px;
     height: 100vh;
     background-repeat: no-repeat;
-    background-image: url("../img/happy-diverse-people-using-digital-devices\ 1.png");
+    background-image: url("../img/happy-diverse-people-using-digital-devices\ 3.png");
     background-size: cover;
   }
 
@@ -125,7 +133,7 @@
     height: 16px;
     background-size: 16px 16px;
     position: absolute;
-    left: -5px;
+    left: -15px;
     top: -5px;
   }
 

@@ -104,6 +104,10 @@
     text-decoration: none;
   }
 
+  .button:hover {
+    background: #ff2a5d;
+  }
+
   .button2 {
     font-family: "Inter";
     padding: 8px 16px;
@@ -116,6 +120,10 @@
     line-height: 20px;
     text-decoration: none;
     display: block;
+  }
+
+  .button2:hover {
+    background: #ff2a5d;
   }
 
   /*Content*/
@@ -152,7 +160,7 @@
     height: 16px;
     background-size: 16px 16px;
     position: absolute;
-    left: -5px;
+    left: 10px;
     top: -5px;
   }
 

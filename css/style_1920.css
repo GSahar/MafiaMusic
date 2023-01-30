@@ -23,7 +23,7 @@
   .header-menu {
     margin: 0 240px 0 240px;
     height: 80px;
-   
+
     display: flex;
     text-align: center;
     align-items: center;
@@ -72,7 +72,7 @@
     line-height: 22px;
   }
 
-  .header-menu>.button {
+  .header-menu > .button {
     font-family: "Inter";
     padding: 8px 16px;
     border-radius: 4px;
@@ -84,7 +84,7 @@
     line-height: 20px;
     text-decoration: none;
     display: block;
-  }  
+  }
 
   .button {
     font-family: "Inter";
@@ -111,6 +111,10 @@
     line-height: 20px;
     text-decoration: none;
     display: none;
+  }
+
+  .header-menu > .button:hover {
+    background: #ff2a5d;
   }
 
   /*Content*/
@@ -213,7 +217,7 @@
     text-align: center;
   }
 
-  .characteristics-item>.item-img {
+  .characteristics-item > .item-img {
     width: 100px;
     height: 100px;
   }
@@ -344,8 +348,8 @@
   .rules-item:nth-child(2n) {
     height: 90px;
   }
-  
-  .rules-item:nth-child(2n+1) {
+
+  .rules-item:nth-child(2n + 1) {
     height: 90px;
   }
 
