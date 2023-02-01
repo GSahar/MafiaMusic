@@ -25,9 +25,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
-/*Подключение шрифта Lato*/
-
 @font-face {
   font-family: Lato;
   src: local("Lato"), url("/fonts/Lato/Lato-Regular.woff") format("woff"),
@@ -36,8 +33,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
-/*Подключение шрифта Inter*/
 
 @font-face {
   font-family: Inter;
@@ -48,7 +43,6 @@
   font-style: normal;
 }
 
-/*Применение шрифта для всей страницы*/
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -62,8 +56,6 @@ a {
 }
 
 .header {
-  /* min-height: 100vw; */
-
   position: fixed;
   background-color: #ffffff;
   z-index: 1000;
@@ -75,11 +67,9 @@ a {
   position: relative;
   margin-top: 80px;
   height: 653px;
-  /* height: 100vh; */
   background-repeat: no-repeat;
   background-image: url("../img/happy-diverse-people-using-digital-devices\ 2.png");
   background-size: contain;
-  /* background-position: left right; */
 }
 
 .header-menu {
@@ -120,8 +110,6 @@ a {
 
 .menu {
   display: none;
-  /*  display: flex;
-  text-align: center; */
 }
 .menu div:nth-child(2) {
   margin-left: 40px;
@@ -134,7 +122,6 @@ a {
   font-size: 18px;
   line-height: 22px;
 }
-/* #FF2A5D */
 
 .button {
   font-family: "Inter";
@@ -144,9 +131,10 @@ a {
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
-  width: 131px;
+  width: 146px;
   line-height: 20px;
   text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
@@ -161,7 +149,7 @@ a {
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
-  width: 131px;
+  width: 146px;
   line-height: 20px;
   text-decoration: none;
   display: none;
@@ -188,7 +176,6 @@ a {
 .button2 {
   background: #ff2a5d;
 }
-/*Content*/
 .container {
   width: 100%;
   margin-top: 50px;
@@ -285,7 +272,6 @@ a {
   width: 400px;
   height: 350px;
   display: inline;
-  /*  padding: 50px; */
   padding-left: 70px;
   margin-top: 60px;
 }
@@ -333,11 +319,8 @@ a {
   bottom: 5px;
 }
 
-/*rules*/
-
 .rules {
   margin-top: 60px;
-  /* height: 960px;*/
   background: #017aff14;
 
   padding-bottom: 76px;
@@ -368,7 +351,6 @@ a {
   width: 340px;
   display: block;
   align-items: center;
-  /**/
   position: absolute;
 }
 
@@ -396,7 +378,6 @@ a {
   float: right;
   margin-right: -10px;
 
-  /**/
   position: absolute;
   left: 22px;
 }
@@ -418,8 +399,6 @@ a {
   display: block;
   width: 340px;
   height: 150px;
-
-  /**/
   position: relative;
 }
 
